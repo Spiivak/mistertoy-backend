@@ -1,0 +1,54 @@
+[
+    {
+        "name": "burn a different story I a different story The sky ",
+        "price": 1398,
+        "createdAt": "2023-12-25T18:08:27.196Z",
+        "inStock": false,
+        "img": "https://robohash.org/. to was to . ",
+        "_id": "is3WU",
+        "owner": {
+            "fullname": "Eden Spivak",
+            "score": 10000,
+            "_id": "zqBf2"
+        }
+    },
+    {
+        "name": "above It All was It ",
+        "price": 393,
+        "createdAt": "2023-12-25T18:08:28.542Z",
+        "inStock": true,
+        "img": "https://robohash.org/this happened a pleasure . and this happened ",
+        "_id": "kAE0L",
+        "owner": {
+            "fullname": "Eden Spivak",
+            "score": 10000,
+            "_id": "zqBf2"
+        }
+    },
+    {
+        "name": "to . to in such cases a dead channel ",
+        "price": 962,
+        "createdAt": "2023-12-25T18:08:29.282Z",
+        "inStock": false,
+        "img": "https://robohash.org/the color of television burn a dead channel this happened bit by bit ",
+        "_id": "yGxjR",
+        "owner": {
+            "fullname": "Eden Spivak",
+            "score": 10000,
+            "_id": "zqBf2"
+        }
+    },
+    {
+        "name": "It each time the story burn above ",
+        "price": 227,
+        "createdAt": "2023-12-25T18:08:29.970Z",
+        "inStock": false,
+        "img": "https://robohash.org/bit by bit each time . the color of television was ",
+        "_id": "87Nxu",
+        "owner": {
+            "fullname": "Eden Spivak",
+            "score": 10000,
+            "_id": "zqBf2"
+        }
+    }
+]

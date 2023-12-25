@@ -1,0 +1,58 @@
+25.12.2023, 19:53:03 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 19:56:17 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 19:59:41 - INFO - Invalid Credentials | {"username":"spiivak","password":"123"}
+25.12.2023, 20:00:33 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 20:00:39 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 20:02:47 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 20:03:08 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 20:04:46 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 20:06:01 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 20:06:19 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 20:06:26 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 20:07:14 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 20:07:26 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 20:07:30 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 20:07:36 - INFO - loggedinUser toy delete: | {"_id":"zqBf2","fullname":"Eden Spivak","score":10000}
+25.12.2023, 20:07:36 - INFO - Toy 4hb0A removed
+25.12.2023, 20:07:37 - INFO - loggedinUser toy delete: | {"_id":"zqBf2","fullname":"Eden Spivak","score":10000}
+25.12.2023, 20:07:37 - INFO - Toy qEXfX removed
+25.12.2023, 20:07:37 - INFO - loggedinUser toy delete: | {"_id":"zqBf2","fullname":"Eden Spivak","score":10000}
+25.12.2023, 20:07:37 - INFO - Toy PVvVV removed
+25.12.2023, 20:07:37 - INFO - loggedinUser toy delete: | {"_id":"zqBf2","fullname":"Eden Spivak","score":10000}
+25.12.2023, 20:07:37 - INFO - Toy L9Jed removed
+25.12.2023, 20:07:38 - INFO - loggedinUser toy delete: | {"_id":"zqBf2","fullname":"Eden Spivak","score":10000}
+25.12.2023, 20:07:38 - INFO - Toy OjaiB removed
+25.12.2023, 20:07:38 - INFO - loggedinUser toy delete: | {"_id":"zqBf2","fullname":"Eden Spivak","score":10000}
+25.12.2023, 20:07:38 - INFO - Toy LdNZh removed
+25.12.2023, 20:07:39 - INFO - loggedinUser toy delete: | {"_id":"zqBf2","fullname":"Eden Spivak","score":10000}
+25.12.2023, 20:07:39 - INFO - Toy 1bFh8 removed
+25.12.2023, 20:07:39 - INFO - loggedinUser toy delete: | {"_id":"zqBf2","fullname":"Eden Spivak","score":10000}
+25.12.2023, 20:07:39 - INFO - Toy fmBP3 removed
+25.12.2023, 20:07:40 - INFO - loggedinUser toy delete: | {"_id":"zqBf2","fullname":"Eden Spivak","score":10000}
+25.12.2023, 20:07:40 - INFO - Toy a5XSx removed
+25.12.2023, 20:07:41 - INFO - loggedinUser toy delete: | {"_id":"zqBf2","fullname":"Eden Spivak","score":10000}
+25.12.2023, 20:07:41 - INFO - Toy JgrjS removed
+25.12.2023, 20:07:43 - INFO - loggedinUser toy delete: | {"_id":"zqBf2","fullname":"Eden Spivak","score":10000}
+25.12.2023, 20:07:43 - INFO - Toy 3QBRD removed
+25.12.2023, 20:08:11 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 20:08:15 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 20:08:18 - INFO - loggedinUser toy delete: | {"_id":"zqBf2","fullname":"Eden Spivak","score":10000}
+25.12.2023, 20:08:18 - INFO - Toy fOre6 removed
+25.12.2023, 20:08:19 - INFO - loggedinUser toy delete: | {"_id":"zqBf2","fullname":"Eden Spivak","score":10000}
+25.12.2023, 20:08:19 - INFO - Toy ZI0tY removed
+25.12.2023, 20:08:19 - INFO - loggedinUser toy delete: | {"_id":"zqBf2","fullname":"Eden Spivak","score":10000}
+25.12.2023, 20:08:19 - INFO - Toy uedXF removed
+25.12.2023, 20:08:20 - INFO - loggedinUser toy delete: | {"_id":"zqBf2","fullname":"Eden Spivak","score":10000}
+25.12.2023, 20:08:20 - INFO - Toy 8w9WN removed
+25.12.2023, 20:08:21 - INFO - loggedinUser toy delete: | {"_id":"zqBf2","fullname":"Eden Spivak","score":10000}
+25.12.2023, 20:08:21 - INFO - Toy w4nnI removed
+25.12.2023, 20:08:22 - INFO - loggedinUser toy delete: | {"_id":"zqBf2","fullname":"Eden Spivak","score":10000}
+25.12.2023, 20:08:22 - INFO - Toy 4u50C removed
+25.12.2023, 20:09:22 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 20:11:05 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 20:12:04 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 20:12:08 - INFO - Server listening on port http://127.0.0.1:3030/
+25.12.2023, 20:13:36 - INFO - loggedinUser toy delete: | {"_id":"zqBf2","fullname":"Eden Spivak","score":10000}
+25.12.2023, 20:13:36 - INFO - Toy qYMkn removed
+25.12.2023, 20:13:37 - INFO - loggedinUser toy delete: | {"_id":"zqBf2","fullname":"Eden Spivak","score":10000}
+25.12.2023, 20:13:37 - INFO - Toy nAYPk removed
