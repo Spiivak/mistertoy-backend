@@ -16,23 +16,23 @@ function query(filterBy = {}) {
     let toysToReturn = [...toys]
 
     if (filterBy.name) {
-        const regExp = new RegExp(filterBy.name, 'i');
-        toysToReturn = toysToReturn.filter(toy => regExp.test(toy.name));
+        const regExp = new RegExp(filterBy.name, 'i')
+        toysToReturn = toysToReturn.filter(toy => regExp.test(toy.name))
     }
 
     if (filterBy.maxPrice !== null) {
-        toysToReturn = toysToReturn.filter(toy => toy.price <= filterBy.maxPrice);
+        toysToReturn = toysToReturn.filter(toy => toy.price <= filterBy.maxPrice)
     }
 
     if (filterBy.minPrice !== null) {
-        toysToReturn = toysToReturn.filter(toy => toy.price >= filterBy.minPrice);
+        toysToReturn = toysToReturn.filter(toy => toy.price >= filterBy.minPrice)
     }
 
-    if (filterBy.inStock !== "all") {
-        toysToReturn = toysToReturn.filter(toy => toy.inStock === JSON.parse(filterBy.inStock));
+    if (filterBy.inStock !== 0) {
+        toysToReturn = toysToReturn.filter(toy => toy.inStock > 1)
     }
 
-    return Promise.resolve(toysToReturn);
+    return Promise.resolve(toysToReturn)
 }
 
 function getById(toyId) {

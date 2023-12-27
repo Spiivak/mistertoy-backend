@@ -43,7 +43,7 @@ app.get('/api/toy', (req, res) => {
         name: req.query.name || '',
         maxPrice: +req.query.maxPrice || null,
         minPrice: +req.query.minPrice || null,
-        inStock: req.query.inStock || 'all',
+        inStock: +req.query.inStock || 1,
         img: req.query.img || ''
     }
     toyService.query(filterBy)
@@ -78,7 +78,7 @@ app.post('/api/toy', (req, res) => {
         price: +req.body.price,
         createdAt: req.body.createdAt,
         labels: req.body.labels,
-        inStock: req.body.inStock,
+        inStock: +req.body.inStock,
         img: req.body.img
     }
     toyService.save(toy, loggedinUser)
@@ -102,7 +102,7 @@ app.put('/api/toy', (req, res) => {
         price: +req.body.price,
         labels: req.body.labels,
         createdAt: req.body.createdAt,
-        inStock: req.body.inStock,
+        inStock: +req.body.inStock,
         img: req.body.img
     }
     toyService.save(toy, loggedinUser)
