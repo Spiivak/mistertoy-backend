@@ -77,6 +77,7 @@ app.post('/api/toy', (req, res) => {
         name: req.body.name,
         price: +req.body.price,
         createdAt: req.body.createdAt,
+        labels: req.body.labels,
         inStock: req.body.inStock,
         img: req.body.img
     }
@@ -99,6 +100,7 @@ app.put('/api/toy', (req, res) => {
         _id: req.body._id,
         name: req.body.name,
         price: +req.body.price,
+        labels: req.body.labels,
         createdAt: req.body.createdAt,
         inStock: req.body.inStock,
         img: req.body.img
@@ -204,7 +206,7 @@ app.get('/**', (req, res) => {
 })
 
 
-const PORT = 3030
-app.listen(PORT, () =>
-    loggerService.info(`Server listening on port http://127.0.0.1:${PORT}/`)
+const port = process.env.PORT || 3030
+app.listen(port, () =>
+    loggerService.info(`Server listening on port http://127.0.0.1:${port}/`)
 )

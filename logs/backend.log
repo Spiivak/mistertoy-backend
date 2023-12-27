@@ -56,3 +56,147 @@
 25.12.2023, 20:13:36 - INFO - Toy qYMkn removed
 25.12.2023, 20:13:37 - INFO - loggedinUser toy delete: | {"_id":"zqBf2","fullname":"Eden Spivak","score":10000}
 25.12.2023, 20:13:37 - INFO - Toy nAYPk removed
+26.12.2023, 8:45:46 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 11:24:20 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 11:25:34 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 11:26:26 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 13:37:15 - INFO - user loggedin: | {"_id":"zqBf2","fullname":"Eden Spivak","score":10000}
+26.12.2023, 13:38:04 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 13:39:48 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 13:59:19 - INFO - user loggedin: | {"_id":"zqBf2","fullname":"Eden Spivak","score":10000}
+26.12.2023, 14:01:29 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 14:02:26 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 14:03:07 - INFO - user loggedin: | {"_id":"zqBf2","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 14:03:59 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 14:05:23 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 14:05:53 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 14:06:04 - INFO - Invalid Credentials | {"username":"spiivak","password":"123"}
+26.12.2023, 14:06:14 - INFO - user loggedin: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000}
+26.12.2023, 14:06:35 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 14:06:42 - INFO - user loggedin: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 14:09:56 - INFO - user loggedin: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 14:10:33 - INFO - user loggedin: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 14:19:18 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 14:19:23 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 14:27:45 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 14:31:54 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 14:32:11 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 14:38:24 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 14:40:34 - INFO - user logged in: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 15:16:14 - INFO - user logged in: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 15:31:05 - INFO - user logged in: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 19:35:29 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 19:35:31 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 19:35:52 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 19:36:11 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 19:39:53 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 19:39:53 - INFO - Toy kAfbh removed
+26.12.2023, 19:39:54 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 19:39:54 - INFO - Toy OVaUP removed
+26.12.2023, 19:39:55 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 19:39:55 - INFO - Toy g0TQc removed
+26.12.2023, 19:39:55 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 19:39:55 - INFO - Toy vRQXZ removed
+26.12.2023, 19:39:56 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 19:39:56 - INFO - Toy Y2oJC removed
+26.12.2023, 19:39:56 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 19:39:56 - INFO - Toy GJntC removed
+26.12.2023, 19:39:57 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 19:39:57 - INFO - Toy arD6Y removed
+26.12.2023, 19:39:57 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 19:39:57 - INFO - Toy 0EGH1 removed
+26.12.2023, 19:39:57 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 19:39:57 - INFO - Toy 80FOS removed
+26.12.2023, 19:39:58 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 19:39:58 - INFO - Toy 8F4rw removed
+26.12.2023, 19:39:58 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 19:39:58 - INFO - Toy TJ8Ap removed
+26.12.2023, 19:39:59 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 19:39:59 - INFO - Toy LZaZs removed
+26.12.2023, 19:40:00 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 19:40:00 - INFO - Toy F2lHX removed
+26.12.2023, 19:40:01 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 19:40:01 - INFO - Toy ZD0qT removed
+26.12.2023, 19:40:02 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 19:40:02 - INFO - Toy RrBJ7 removed
+26.12.2023, 19:40:03 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 19:40:03 - INFO - Toy 3sSpb removed
+26.12.2023, 19:40:05 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 19:40:05 - INFO - Toy UZRFr removed
+26.12.2023, 22:55:36 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 22:55:36 - INFO - Toy xdE6z removed
+26.12.2023, 22:55:37 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 22:55:37 - INFO - Toy zhiTu removed
+26.12.2023, 22:55:39 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 22:55:39 - INFO - Toy pT6dd removed
+26.12.2023, 22:55:40 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 22:55:40 - INFO - Toy ckZ8G removed
+26.12.2023, 22:55:42 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 22:55:42 - INFO - Toy dk7Qk removed
+26.12.2023, 22:55:44 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 22:55:44 - INFO - Toy E4Ig8 removed
+26.12.2023, 22:56:35 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 22:56:35 - INFO - Toy mIhUC removed
+26.12.2023, 22:56:36 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 22:56:36 - INFO - Toy BuSIT removed
+26.12.2023, 22:56:37 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 22:56:37 - INFO - Toy hkO9m removed
+26.12.2023, 22:56:39 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 22:56:39 - INFO - Toy kuMQX removed
+26.12.2023, 22:56:40 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 22:56:40 - INFO - Toy hFms5 removed
+26.12.2023, 22:58:21 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 22:58:21 - INFO - Toy kDcG7 removed
+26.12.2023, 22:58:22 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 22:58:22 - INFO - Toy 4w8CN removed
+26.12.2023, 22:58:23 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 22:58:23 - INFO - Toy jiXYy removed
+26.12.2023, 22:58:23 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 22:58:23 - INFO - Toy vbAyo removed
+26.12.2023, 22:58:24 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 22:58:24 - INFO - Toy wbbOo removed
+26.12.2023, 22:58:24 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 22:58:24 - INFO - Toy VbAON removed
+26.12.2023, 22:58:25 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 22:58:25 - INFO - Toy gk5tI removed
+26.12.2023, 22:58:28 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 22:58:28 - INFO - Toy ZR3K6 removed
+26.12.2023, 23:00:47 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 23:00:47 - INFO - Toy t4MKM removed
+26.12.2023, 23:00:48 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 23:00:48 - INFO - Toy 3p7Fg removed
+26.12.2023, 23:00:50 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 23:00:50 - INFO - Toy KlANM removed
+26.12.2023, 23:00:51 - INFO - loggedinUser toy delete: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 23:00:51 - INFO - Toy 6ON1K removed
+26.12.2023, 23:08:34 - INFO - Invalid Credentials | {"password":"9216240"}
+26.12.2023, 23:08:38 - INFO - Invalid Credentials | {"password":"9216240"}
+26.12.2023, 23:08:39 - INFO - Invalid Credentials | {"password":"9216240"}
+26.12.2023, 23:08:39 - INFO - Invalid Credentials | {"password":"9216240"}
+26.12.2023, 23:08:39 - INFO - Invalid Credentials | {"password":"9216240"}
+26.12.2023, 23:08:47 - INFO - Invalid Credentials | {"password":"9216240"}
+26.12.2023, 23:09:42 - INFO - Invalid Credentials | {"password":"9216240"}
+26.12.2023, 23:10:13 - INFO - Invalid Credentials | {"password":"9216240"}
+26.12.2023, 23:11:52 - INFO - Invalid Credentials | {"password":"1234"}
+26.12.2023, 23:12:58 - INFO - Invalid Credentials | {"password":"1234"}
+26.12.2023, 23:14:57 - INFO - Invalid Credentials | {"username":"koko","password":"1234"}
+26.12.2023, 23:20:43 - INFO - Invalid Credentials | {"username":"koko","password":"1234"}
+26.12.2023, 23:20:47 - INFO - Invalid Credentials | {"username":"koko","password":"1234"}
+26.12.2023, 23:21:28 - INFO - Invalid Credentials | {"username":"koko","password":"123456"}
+26.12.2023, 23:22:05 - INFO - Invalid Credentials | {"username":"koko","password":"123456"}
+26.12.2023, 23:26:57 - ERROR - Cannot save toy | Not your toy
+26.12.2023, 23:27:03 - INFO - loggedinUser toy delete: | {"_id":"qhWYD","fullname":"koko koko","score":10000}
+26.12.2023, 23:27:03 - ERROR - Cannot remove toy | Not your toy
+26.12.2023, 23:27:05 - INFO - loggedinUser toy delete: | {"_id":"qhWYD","fullname":"koko koko","score":10000}
+26.12.2023, 23:27:05 - ERROR - Cannot remove toy | Not your toy
+26.12.2023, 23:36:09 - INFO - user logged in: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 23:52:17 - INFO - user logged in: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 23:54:10 - INFO - user logged in: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+26.12.2023, 23:56:44 - INFO - Invalid Credentials | {"username":"Spiivak","password":"123"}
+26.12.2023, 23:56:51 - INFO - user logged in: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+27.12.2023, 0:07:38 - INFO - user logged in: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+27.12.2023, 0:20:02 - INFO - user logged in: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+27.12.2023, 0:20:45 - INFO - user logged in: | {"_id":"p2fwH","fullname":"testt","score":10000}
+27.12.2023, 0:21:20 - INFO - user logged in: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+27.12.2023, 0:41:12 - INFO - user logged in: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+27.12.2023, 0:46:33 - INFO - user logged in: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}

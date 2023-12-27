@@ -4,6 +4,119 @@
         "password": "123",
         "fullname": "Eden Spivak",
         "score": 10000,
-        "_id": "zqBf2"
+        "isAdmin": true,
+        "_id": "jBpEI"
+    },
+    {
+        "username": "",
+        "password": "1236456",
+        "fullname": "koko koko",
+        "score": 10000,
+        "_id": "qhWYD"
+    },
+    {
+        "username": "moko",
+        "password": "123456",
+        "fullname": "moko koko",
+        "score": 10000,
+        "_id": "Hyx78"
+    },
+    {
+        "username": "meir",
+        "password": "123456",
+        "fullname": "meir",
+        "score": 10000,
+        "_id": "Mqhtn"
+    },
+    {
+        "username": "dima",
+        "password": "123456",
+        "fullname": "dima dima",
+        "score": 10000,
+        "_id": "TVRR0"
+    },
+    {
+        "username": "dima",
+        "password": "123456",
+        "fullname": "dima dima",
+        "score": 10000,
+        "_id": "vKoK6"
+    },
+    {
+        "username": "dima",
+        "password": "123456",
+        "fullname": "dima dima",
+        "score": 10000,
+        "_id": "hSzdp"
+    },
+    {
+        "username": "kid",
+        "password": "123456",
+        "fullname": "kid",
+        "score": 10000,
+        "_id": "O9Loo"
+    },
+    {
+        "username": "kid",
+        "password": "123456",
+        "fullname": "kid",
+        "score": 10000,
+        "_id": "3LoAc"
+    },
+    {
+        "username": "kido",
+        "password": "123456",
+        "fullname": "kido",
+        "score": 10000,
+        "_id": "51WJA"
+    },
+    {
+        "username": "kikiki",
+        "password": "123456",
+        "fullname": "kikiki",
+        "score": 10000,
+        "_id": "jkpuP"
+    },
+    {
+        "username": "kokomoko",
+        "password": "123456",
+        "fullname": "kokomoko",
+        "score": 10000,
+        "_id": "00KKl"
+    },
+    {
+        "username": "asdasdasd",
+        "password": "123456",
+        "fullname": "asdasdasdasd",
+        "score": 10000,
+        "_id": "rbsgw"
+    },
+    {
+        "username": "asdasdasda",
+        "password": "123456",
+        "fullname": "asdasdasdasda",
+        "score": 10000,
+        "_id": "HRbBq"
+    },
+    {
+        "username": "test",
+        "password": "123456",
+        "fullname": "test",
+        "score": 10000,
+        "_id": "8GSka"
+    },
+    {
+        "username": "test1",
+        "password": "123456",
+        "fullname": "test1",
+        "score": 10000,
+        "_id": "54glO"
+    },
+    {
+        "username": "testt",
+        "password": "123456",
+        "fullname": "testt",
+        "score": 10000,
+        "_id": "p2fwH"
     }
 ]

@@ -39,7 +39,7 @@ function checkLogin({ username, password }) {
             score: user.score,
             isAdmin: user.isAdmin,
         }
-        loggerService.info('user loggedin:', user)
+        loggerService.info('user logged in:', user)
     }
     return Promise.resolve(user)
 }
@@ -59,7 +59,8 @@ function getById(userId) {
         user = {
             _id: user._id,
             fullname: user.fullname,
-            score: user.score
+            score: user.score,
+            isAdmin: user.isAdmin
         }
     }
     return Promise.resolve(user)
