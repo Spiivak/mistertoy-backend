@@ -200,3 +200,4 @@
 27.12.2023, 0:21:20 - INFO - user logged in: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
 27.12.2023, 0:41:12 - INFO - user logged in: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
 27.12.2023, 0:46:33 - INFO - user logged in: | {"_id":"jBpEI","fullname":"Eden Spivak","score":10000,"isAdmin":true}
+27.12.2023, 11:12:48 - INFO - Server listening on port http://127.0.0.1:3030/
