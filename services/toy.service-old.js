@@ -1,7 +1,7 @@
 
 import fs from 'fs'
-import { utilService } from './util.service.js'
-import { loggerService } from './logger.service.js'
+// import { utilService } from './util.service.js'
+// import { loggerService } from './logger.service.js'
 
 export const toyService = {
     query,
@@ -66,7 +66,6 @@ function save(toy, loggedinUser) {
         toy._id = utilService.makeId()
         toy.owner = {
             fullname: loggedinUser.fullname,
-            score: loggedinUser.score,
             _id: loggedinUser._id,
             isAdmin: loggedinUser.isAdmin
         }

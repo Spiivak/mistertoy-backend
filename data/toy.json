@@ -53,5 +53,54 @@
             "_id": "jBpEI",
             "isAdmin": true
         }
+    },
+    {
+        "name": "lihi",
+        "price": 10000000,
+        "labels": [
+            "coding",
+            "academy"
+        ],
+        "inStock": 1,
+        "img": "https://robohash.org/lihi",
+        "_id": "teng2",
+        "owner": {
+            "fullname": "Eden Spivak",
+            "score": 10000,
+            "_id": "jBpEI",
+            "isAdmin": true
+        }
+    },
+    {
+        "name": "asdasd",
+        "price": 123,
+        "labels": [
+            "asdasdasd"
+        ],
+        "inStock": 123123,
+        "img": "https://robohash.org/asdasd",
+        "_id": "iQPlY",
+        "owner": {
+            "fullname": "Eden Spivak",
+            "score": 10000,
+            "_id": "jBpEI",
+            "isAdmin": true
+        }
+    },
+    {
+        "name": "asdasd",
+        "price": 123,
+        "labels": [
+            "asdasd"
+        ],
+        "inStock": 123,
+        "img": "https://robohash.org/asdasd",
+        "_id": "9BcIb",
+        "owner": {
+            "fullname": "Eden Spivak",
+            "score": 10000,
+            "_id": "jBpEI",
+            "isAdmin": true
+        }
     }
 ]
