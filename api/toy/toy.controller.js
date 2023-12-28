@@ -2,10 +2,15 @@ import { logger } from '../../services/logger.service.js'
 import { toyService } from './toy.service.js'
 
 export async function getToys(req, res) {
+    // const filterBy = req.query.filterBy
+    const filterBy = {
+        name: req.query.name || '',
+        maxPrice: req.query.maxPrice || '',
+        minPrice: req.query.minPrice || '',
+        inStock: req.query.inStock || ''
+    }
+    console.log('getToys  filterBy:', filterBy)
     try {
-        const filterBy = {
-            txt: req.query.txt || '',
-        }
         logger.debug('Getting Toys', filterBy)
         const toys = await toyService.query(filterBy)
         res.json(toys)

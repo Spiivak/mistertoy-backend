@@ -15,6 +15,7 @@ export const toyService = {
 }
 
 async function query(filterBy = {}) {
+    console.log('query  filterBy:', filterBy)
     try {
         const criteria = {};
 
@@ -22,20 +23,21 @@ async function query(filterBy = {}) {
             criteria.name = { $regex: filterBy.name, $options: 'i' };
         }
 
-        if (filterBy.maxPrice !== null) {
+        if (filterBy.maxPrice !== '' && filterBy.maxPrice !== null && filterBy.maxPrice !== undefined) {
             criteria.price = { $lte: filterBy.maxPrice };
         }
 
-        if (filterBy.minPrice !== null) {
-            criteria.price = { ...criteria.price, $gte: filterBy.minPrice };
-        }
+        // if (filterBy.minPrice !== null) {
+        //     criteria.price = { ...criteria.price, $gte: filterBy.minPrice };
+        // }
 
-        if (filterBy.inStock !== 0) {
-            criteria.inStock = { $gt: 1 };
-        }
+        // if (filterBy.inStock !== 0) {
+        //     criteria.inStock = { $gt: 1 };
+        // }
 
         const collection = await dbService.getCollection('toy');
         const toys = await collection.find(criteria).toArray();
+        console.log('query  toys:', toys)
 
         return toys;
     } catch (err) {

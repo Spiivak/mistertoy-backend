@@ -1,106 +1,283 @@
 [
     {
-        "name": "test",
-        "price": 123,
-        "labels": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5"
-        ],
-        "inStock": null,
-        "img": "https://robohash.org/test",
-        "_id": "ObRo9",
-        "owner": {
-            "fullname": "Eden Spivak",
-            "score": 10000,
-            "_id": "jBpEI",
-            "isAdmin": true
-        }
+      "name": "LEGO Classic Creative Bricks",
+      "description": "A fun and exciting toy for children.",
+      "price": 19.99,
+      "labels": ["Building", "Creativity"],
+      "inStock": 50,
+      "img": "https://robohash.org/legocreative",
+      "owner": {
+        "fullname": "Eden Spivak",
+        "score": 10000,
+        "_id": "jBpEI",
+        "isAdmin": true
+      }
     },
     {
-        "name": "test",
-        "price": 123,
-        "labels": [
-            "ma",
-            "kore"
-        ],
-        "inStock": 123,
-        "img": "https://robohash.org/test",
-        "_id": "RBZRM",
-        "owner": {
-            "fullname": "Eden Spivak",
-            "score": 10000,
-            "_id": "jBpEI",
-            "isAdmin": true
-        }
+      "name": "Barbie Dreamhouse",
+      "description": "Explore Barbie's dreamhouse with multiple rooms and accessories.",
+      "price": 59.99,
+      "labels": ["Doll", "Imagination"],
+      "inStock": 30,
+      "img": "https://robohash.org/barbiedreamhouse",
+      "owner": {
+        "fullname": "Eden Spivak",
+        "score": 10000,
+        "_id": "jBpEI",
+        "isAdmin": true
+      }
     },
     {
-        "name": "Monapl",
-        "price": 100,
-        "labels": [
-            "monapol",
-            "cash",
-            "boardgame"
-        ],
-        "inStock": 150,
-        "img": "https://robohash.org/Monapl",
-        "_id": "IkQAk",
-        "owner": {
-            "fullname": "Eden Spivak",
-            "score": 10000,
-            "_id": "jBpEI",
-            "isAdmin": true
-        }
+      "name": "Monopoly",
+      "description": "The classic board game of buying, selling, and trading properties.",
+      "price": 24.99,
+      "labels": ["Board Game", "Strategy"],
+      "inStock": 40,
+      "img": "https://robohash.org/monopoly",
+      "owner": {
+        "fullname": "Eden Spivak",
+        "score": 10000,
+        "_id": "jBpEI",
+        "isAdmin": true
+      }
     },
     {
-        "name": "lihi",
-        "price": 10000000,
-        "labels": [
-            "coding",
-            "academy"
-        ],
-        "inStock": 1,
-        "img": "https://robohash.org/lihi",
-        "_id": "teng2",
-        "owner": {
-            "fullname": "Eden Spivak",
-            "score": 10000,
-            "_id": "jBpEI",
-            "isAdmin": true
-        }
+      "name": "Nerf N-Strike Elite Disruptor Blaster",
+      "description": "Fire foam darts with this powerful Nerf blaster.",
+      "price": 14.99,
+      "labels": ["Outdoor", "Action"],
+      "inStock": 20,
+      "img": "https://robohash.org/nerfblaster",
+      "owner": {
+        "fullname": "Eden Spivak",
+        "score": 10000,
+        "_id": "jBpEI",
+        "isAdmin": true
+      }
     },
     {
-        "name": "asdasd",
-        "price": 123,
-        "labels": [
-            "asdasdasd"
-        ],
-        "inStock": 123123,
-        "img": "https://robohash.org/asdasd",
-        "_id": "iQPlY",
-        "owner": {
-            "fullname": "Eden Spivak",
-            "score": 10000,
-            "_id": "jBpEI",
-            "isAdmin": true
-        }
+      "name": "Catan",
+      "description": "Embark on a quest to settle the island of Catan in this strategic board game.",
+      "price": 39.99,
+      "labels": ["Board Game", "Strategy"],
+      "inStock": 35,
+      "img": "https://robohash.org/catan",
+      "owner": {
+        "fullname": "Eden Spivak",
+        "score": 10000,
+        "_id": "jBpEI",
+        "isAdmin": true
+      }
     },
     {
-        "name": "asdasd",
-        "price": 123,
-        "labels": [
-            "asdasd"
-        ],
-        "inStock": 123,
-        "img": "https://robohash.org/asdasd",
-        "_id": "9BcIb",
-        "owner": {
-            "fullname": "Eden Spivak",
-            "score": 10000,
-            "_id": "jBpEI",
-            "isAdmin": true
-        }
+      "name": "Rubik's Cube",
+      "description": "Challenge yourself with the classic 3D combination puzzle.",
+      "price": 9.99,
+      "labels": ["Puzzle", "Brain Teaser"],
+      "inStock": 25,
+      "img": "https://robohash.org/rubikscube",
+      "owner": {
+        "fullname": "Eden Spivak",
+        "score": 10000,
+        "_id": "jBpEI",
+        "isAdmin": true
+      }
+    },
+    {
+      "name": "LEGO Star Wars Millennium Falcon",
+      "description": "Build the iconic Millennium Falcon from Star Wars with LEGO bricks.",
+      "price": 89.99,
+      "labels": ["Building", "Sci-Fi"],
+      "inStock": 15,
+      "img": "https://robohash.org/legomillenniumfalcon",
+      "owner": {
+        "fullname": "Eden Spivak",
+        "score": 10000,
+        "_id": "jBpEI",
+        "isAdmin": true
+      }
+    },
+    {
+      "name": "Twister",
+      "description": "Get tangled up in this classic game of physical skill and flexibility.",
+      "price": 19.99,
+      "labels": ["Party Game", "Physical Activity"],
+      "inStock": 22,
+      "img": "https://robohash.org/twister",
+      "owner": {
+        "fullname": "Eden Spivak",
+        "score": 10000,
+        "_id": "jBpEI",
+        "isAdmin": true
+      }
+    },
+    {
+      "name": "Operation Game",
+      "description": "Perform surgery without setting off the buzzer in this classic board game.",
+      "price": 17.99,
+      "labels": ["Board Game", "Skill"],
+      "inStock": 28,
+      "img": "https://robohash.org/operationgame",
+      "owner": {
+        "fullname": "Eden Spivak",
+        "score": 10000,
+        "_id": "jBpEI",
+        "isAdmin": true
+      }
+    },
+    {
+      "name": "LEGO Technic Bugatti Chiron",
+      "description": "Build a detailed LEGO replica of the Bugatti Chiron supercar.",
+      "price": 129.99,
+      "labels": ["Building", "Car"],
+      "inStock": 12,
+      "img": "https://robohash.org/legobugatti",
+      "owner": {
+        "fullname": "Eden Spivak",
+        "score": 10000,
+        "_id": "jBpEI",
+        "isAdmin": true
+      }
+    },
+    {
+      "name": "Chess Set",
+      "description": "Engage in a classic game of strategy with this elegant chess set.",
+      "price": 29.99,
+      "labels": ["Board Game", "Strategy"],
+      "inStock": 18,
+      "img": "https://robohash.org/chessset",
+      "owner": {
+        "fullname": "Eden Spivak",
+        "score": 10000,
+        "_id": "jBpEI",
+        "isAdmin": true
+      }
+    },
+    {
+      "name": "Jenga",
+      "description": "Carefully remove blocks without toppling the tower in this tense stacking game.",
+      "price": 12.99,
+      "labels": ["Party Game", "Skill"],
+      "inStock": 24,
+      "img": "https://robohash.org/jenga",
+      "owner": {
+        "fullname": "Eden Spivak",
+        "score": 10000,
+        "_id": "jBpEI",
+        "isAdmin": true
+      }
+    },
+    {
+      "name": "LEGO Disney Castle",
+      "description": "Build the enchanting Disney Castle from LEGO bricks with intricate details.",
+      "price": 149.99,
+      "labels": ["Building", "Disney"],
+      "inStock": 8,
+      "img": "https://robohash.org/legodisneycastle",
+      "owner": {
+        "fullname": "Eden Spivak",
+        "score": 10000,
+        "_id": "jBpEI",
+        "isAdmin": true
+      }
+    },
+    {
+      "name": "Uno",
+      "description": "Play cards strategically to be the first to get rid of all your cards in Uno.",
+      "price": 7.99,
+      "labels": ["Card Game", "Strategy"],
+      "inStock": 33,
+      "img": "https://robohash.org/uno",
+      "owner": {
+        "fullname": "Eden Spivak",
+        "score": 10000,
+        "_id": "jBpEI",
+        "isAdmin": true
+      }
+    },
+    {
+      "name": "Remote-Controlled Drone",
+      "description": "Pilot a drone with remote control for aerial adventures.",
+      "price": 49.99,
+      "labels": ["Outdoor", "Tech"],
+      "inStock": 16,
+      "img": "https://robohash.org/dronetoy",
+      "owner": {
+        "fullname": "Eden Spivak",
+        "score": 10000,
+        "_id": "jBpEI",
+        "isAdmin": true
+      }
+    },
+    {
+      "name": "Yahtzee",
+      "description": "Roll the dice and score points in this classic dice game of luck and strategy.",
+      "price": 14.99,
+      "labels": ["Dice Game", "Luck"],
+      "inStock": 27,
+      "img": "https://robohash.org/yahtzee",
+      "owner": {
+        "fullname": "Eden Spivak",
+        "score": 10000,
+        "_id": "jBpEI",
+        "isAdmin": true
+      }
+    },
+    {
+      "name": "LEGO Ideas Tree House",
+      "description": "Build a customizable treehouse with this LEGO Ideas set.",
+      "price": 79.99,
+      "labels": ["Building", "Nature"],
+      "inStock": 14,
+      "img": "https://robohash.org/legotreehouse",
+      "owner": {
+        "fullname": "Eden Spivak",
+        "score": 10000,
+        "_id": "jBpEI",
+        "isAdmin": true
+      }
+    },
+    {
+      "name": "Pictionary",
+      "description": "Draw and guess your way to victory in this lively party game.",
+      "price": 16.99,
+      "labels": ["Party Game", "Drawing"],
+      "inStock": 21,
+      "img": "https://robohash.org/pictionary",
+      "owner": {
+        "fullname": "Eden Spivak",
+        "score": 10000,
+        "_id": "jBpEI",
+        "isAdmin": true
+      }
+    },
+    {
+      "name": "Hot Wheels Track Builder",
+      "description": "Construct epic Hot Wheels tracks and race cars for thrilling adventures.",
+      "price": 34.99,
+      "labels": ["Building", "Cars"],
+      "inStock": 19,
+      "img": "https://robohash.org/hotwheelstrack",
+      "owner": {
+        "fullname": "Eden Spivak",
+        "score": 10000,
+        "_id": "jBpEI",
+        "isAdmin": true
+      }
+    },
+    {
+      "name": "LEGO Friends Heartlake City Amusement Pier",
+      "description": "Build an amusement pier with exciting LEGO Friends attractions.",
+      "price": 109.99,
+      "labels": ["Building", "Adventure"],
+      "inStock": 10,
+      "img": "https://robohash.org/legofriendspier",
+      "owner": {
+        "fullname": "Eden Spivak",
+        "score": 10000,
+        "_id": "jBpEI",
+        "isAdmin": true
+      }
     }
-]
+  ]
+  
