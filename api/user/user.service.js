@@ -29,7 +29,7 @@ async function query(filterBy = {}) {
         return users
     } catch (err) {
         logger.error('cannot find users', err)
-        // throw err
+        throw err
     }
 }
 
@@ -41,7 +41,7 @@ async function getById(userId) {
         return user
     } catch (err) {
         logger.error(`while finding user ${userId}`, err)
-        // throw err
+        throw err
     }
 }
 async function getByUsername(username) {
@@ -51,7 +51,7 @@ async function getByUsername(username) {
         return user
     } catch (err) {
         logger.error(`while finding user ${username}`, err)
-        // throw err
+        throw err
     }
 }
 
@@ -61,7 +61,7 @@ async function remove(userId) {
         await collection.deleteOne({ _id: ObjectId(userId) })
     } catch (err) {
         logger.error(`cannot remove user ${userId}`, err)
-        // throw err
+        throw err
     }
 }
 
@@ -79,7 +79,7 @@ async function update(user) {
         return userToSave
     } catch (err) {
         logger.error(`cannot update user ${user._id}`, err)
-        // throw err
+        throw err
     }
 }
 
@@ -101,7 +101,7 @@ async function add(user) {
         return userToAdd
     } catch (err) {
         logger.error('cannot insert user', err)
-        // throw err
+        throw err
     }
 }
 

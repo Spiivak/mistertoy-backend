@@ -42,7 +42,7 @@ async function query(filterBy = {}) {
         return toys;
     } catch (err) {
         logger.error('cannot find toys', err);
-        // throw err;
+        throw err;
     }
 }
 
@@ -53,7 +53,7 @@ async function getById(toyId) {
         return toy
     } catch (err) {
         logger.error(`while finding toy ${toyId}`, err)
-        // throw err
+        throw err
     }
 }
 
@@ -64,7 +64,7 @@ async function remove(toyId) {
         await collection.deleteOne({ _id: new ObjectId(toyId) })
     } catch (err) {
         logger.error(`cannot remove toy ${toyId}`, err)
-        // throw err
+        throw err
     }
 }
 
@@ -75,7 +75,7 @@ async function add(toy) {
         return toy
     } catch (err) {
         logger.error('cannot insert toy', err)
-        // throw err
+        throw err
     }
 }
 
@@ -90,7 +90,7 @@ async function update(toy) {
         return toy
     } catch (err) {
         logger.error(`cannot update toy ${toy._id}`, err)
-        // throw err
+        throw err
     }
 }
 
@@ -102,7 +102,7 @@ async function addToyMsg(toyId, msg) {
         return msg
     } catch (err) {
         logger.error(`cannot add toy msg ${toyId}`, err)
-        // throw err
+        throw err
     }
 }
 
@@ -113,6 +113,6 @@ async function removeToyMsg(toyId, msgId) {
         return msgId
     } catch (err) {
         logger.error(`cannot add toy msg ${toyId}`, err)
-        // throw err
+        throw err
     }
 }
