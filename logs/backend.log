@@ -3534,3 +3534,21 @@
 1.1.2024, 9:08:44 - INFO - Server.js loaded... 
 1.1.2024, 9:11:13 - INFO - Server.js loaded... 
 1.1.2024, 9:11:13 - INFO - Server is running on port: 3030 
+1.1.2024, 9:15:42 - INFO - Req was made | / 
+1.1.2024, 9:15:42 - DEBUG - Getting Toys | {"name":"","maxPrice":"10000","minPrice":"0","inStock":"0","labels":[],"recommendedAge":[]} 
+1.1.2024, 9:15:44 - INFO - Req was made | / 
+1.1.2024, 9:15:44 - DEBUG - Getting Toys | {"name":"","maxPrice":"10000","minPrice":"0","inStock":"0","labels":[],"recommendedAge":[]} 
+1.1.2024, 9:20:21 - INFO - Req was made | / 
+1.1.2024, 9:20:21 - DEBUG - Getting Toys | {"name":"","maxPrice":"10000","minPrice":"0","inStock":"0","labels":[],"recommendedAge":[]} 
+1.1.2024, 9:20:21 - INFO - Req was made | / 
+1.1.2024, 9:20:21 - DEBUG - Getting Toys | {"name":"","maxPrice":"10000","minPrice":"0","inStock":"0","labels":[],"recommendedAge":[]} 
+1.1.2024, 9:29:52 - INFO - Req was made | / 
+1.1.2024, 9:29:52 - DEBUG - Getting Toys | {"name":"","maxPrice":"10000","minPrice":"0","inStock":"0","labels":[],"recommendedAge":[]} 
+1.1.2024, 9:29:52 - INFO - Req was made | / 
+1.1.2024, 9:29:52 - DEBUG - Getting Toys | {"name":"","maxPrice":"10000","minPrice":"0","inStock":"0","labels":[],"recommendedAge":[]} 
+1.1.2024, 9:38:43 - INFO - Server.js loaded... 
+1.1.2024, 9:38:43 - INFO - Server is running on port: 3030 
+1.1.2024, 9:38:55 - INFO - Server.js loaded... 
+1.1.2024, 9:38:55 - INFO - Server is running on port: 3030 
+1.1.2024, 9:38:56 - INFO - Server.js loaded... 
+1.1.2024, 9:38:56 - INFO - Server is running on port: 3030 
