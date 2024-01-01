@@ -13,34 +13,34 @@ export const authService = {
 
 const cryptr = new Cryptr(process.env.SECRET1 || 'Secret-Puk-1234')
 
-async function login(username, password) {
-    logger.debug(`auth.service - login with username: ${username}`)
+async function login(email, password) {
+    logger.debug(`auth.service - login with email: ${email}`)
 
-    const user = await userService.getByUsername(username)
-    if (!user) throw new Error('Invalid username or password')
+    const user = await userService.getByEmail(email)
+    if (!user) throw new Error('Invalid email or password')
 
     const match = await bcrypt.compare(password, user.password)
-    if (!match) throw new Error('Invalid username or password')
+    if (!match) throw new Error('Invalid email or password')
 
     delete user.password
     return user
 }
 
-async function signup(username, password, fullname) {
+async function signup(email, password, fullname, phone, acceptSMS) {
     const saltRounds = 10
 
-    logger.debug(`auth.service - signup with username: ${username}, fullname: ${fullname}`)
-    if (!username || !password || !fullname) throw new Error('Missing details')
+    logger.debug(`auth.service - signup with email: ${email}, fullname: ${fullname}`)
+    if (!email || !password || !fullname) throw new Error('Missing details')
 
     const hash = await bcrypt.hash(password, saltRounds)
-    return userService.add({ username, password: hash, fullname })
+    return userService.add({ email, password: hash, fullname, phone, acceptSMS })
 }
 
 function getLoginToken(user) {
     const userInfo = { 
         _id : user._id, 
-        fullname: user.fullname, 
-        isAdmin: user.isAdmin 
+        email: user.email,
+        isAdmin: user.isAdmin
     }
     return cryptr.encrypt(JSON.stringify(userInfo))    
 }
@@ -51,7 +51,7 @@ function validateToken(loginToken) {
         const loggedinUser = JSON.parse(json)
         return loggedinUser
     } catch(err) {
-        console.log('Invalid login token', err)
+        console.log('Invalid login token')
     }
     return null
 }

@@ -7,9 +7,11 @@ export async function getToys(req, res) {
         name: req.query.name || '',
         maxPrice: req.query.maxPrice || '',
         minPrice: req.query.minPrice || '',
-        inStock: req.query.inStock || ''
+        inStock: req.query.inStock || '',
+        labels: req.query.labels || [],
+        recommendedAge: req.query.recommendedAge || []
     }
-    console.log('getToys  filterBy:', filterBy)
+    // console.log('getToys  filterBy:', filterBy)
     try {
         logger.debug('Getting Toys', filterBy)
         const toys = await toyService.query(filterBy)

@@ -7,7 +7,7 @@ const { ObjectId } = mongodb
 export const userService = {
     query,
     getById,
-    getByUsername,
+    getByEmail,
     remove,
     update,
     add
@@ -44,13 +44,14 @@ async function getById(userId) {
         throw err
     }
 }
-async function getByUsername(username) {
+async function getByEmail(email) {
     try {
         const collection = await dbService.getCollection('user')
-        const user = await collection.findOne({ username })
+        const user = await collection.findOne({ email })
+        console.log('getByEmail  user:', user)
         return user
     } catch (err) {
-        logger.error(`while finding user ${username}`, err)
+        logger.error(`while finding user ${email}`, err)
         throw err
     }
 }
@@ -70,8 +71,10 @@ async function update(user) {
         // peek only updatable fields!
         const userToSave = {
             _id: ObjectId(user._id),
-            username: user.username,
+            email: user.email,
             fullname: user.fullname,
+            phone: user.phone,
+            acceptSMS: user.acceptSMS,
             score: user.score
         }
         const collection = await dbService.getCollection('user')
@@ -86,14 +89,16 @@ async function update(user) {
 async function add(user) {
     try {
         // Validate that there are no such user:
-        const existUser = await getByUsername(user.username)
-        if (existUser) throw new Error('Username taken')
+        const existUser = await getByEmail(user.email)
+        if (existUser) throw new Error('Email taken')
 
         // peek only updatable fields!
         const userToAdd = {
-            username: user.username,
-            password: user.password,
+            email: user.email,
             fullname: user.fullname,
+            password: user.password,
+            acceptSMS: user.acceptSMS,
+            phone: user.phone,
             score: user.score || 0
         }
         const collection = await dbService.getCollection('user')
@@ -111,7 +116,7 @@ function _buildCriteria(filterBy) {
         const txtCriteria = { $regex: filterBy.txt, $options: 'i' }
         criteria.$or = [
             {
-                username: txtCriteria
+                email: txtCriteria
             },
             {
                 fullname: txtCriteria

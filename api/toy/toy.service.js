@@ -16,19 +16,35 @@ export const toyService = {
 
 async function query(filterBy = {}) {
     console.log('query  filterBy:', filterBy)
+    // console.log('query  filterBy:', filterBy)
     try {
-        const criteria = {};
+        let criteria = {}
 
         if (filterBy.name) {
             criteria.name = { $regex: filterBy.name, $options: 'i' };
         }
 
-        if (filterBy.maxPrice !== '' && filterBy.maxPrice !== null && filterBy.maxPrice !== undefined) {
-            criteria.price = { $lte: filterBy.maxPrice };
+        if(filterBy.maxPrice !== 0) {
+            console.log('query  filterBy.maxPrice:', filterBy.maxPrice)
+            criteria.price = { $lt: parseFloat(filterBy.maxPrice)}
         }
 
-        // if (filterBy.minPrice !== null) {
-        //     criteria.price = { ...criteria.price, $gte: filterBy.minPrice };
+        if(filterBy.minPrice !== 0) {
+            console.log('query  filterBy.minPrice:', filterBy.minPrice)
+            criteria.price = { $gt: parseFloat(filterBy.minPrice)}
+        }
+
+
+        if (filterBy.labels && filterBy.labels.length > 0) {
+            criteria.labels = { $in: filterBy.labels }
+        }
+
+        // if (filterBy.maxPrice && filterBy.minPrice > 0) {
+        //     criteria.price = { $gte: filterBy.minPrice, $lte: filterBy.maxPrice };
+        // } else if (filterBy.maxPrice !== 0) {
+        //     criteria.price = { $lte: parseFloat(filterBy.maxPrice) };
+        // } else if (filterBy.minPrice !== 0) {
+        //     criteria.price = { $gte: parseFloat(filterBy.minPrice) };
         // }
 
         // if (filterBy.inStock !== 0) {
@@ -83,7 +99,12 @@ async function update(toy) {
     try {
         const toyToSave = {
             name: toy.name,
-            price: toy.price
+            price: toy.price,
+            labels: toy.labels,
+            recommendedAge: toy.recommendedAge,
+            desscription: toy.desscription,
+            img: toy.img,
+            inStock: toy.inStock,
         }
         const collection = await dbService.getCollection('toy')
         await collection.updateOne({ _id: new ObjectId(toy._id) }, { $set: toyToSave })

@@ -28,7 +28,7 @@ async function _connect() {
         dbConn = db
         return db
     } catch (err) {
-        logger.error('Cannot Connect to DB', err)
+        logger.error('Failed to connect to the database', err)
         throw err
     }
 }
